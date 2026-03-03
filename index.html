@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Weather Map Pro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>🌍 Global Weather Explorer</h1>
+        <p>Click anywhere on the map to see real-time weather data</p>
+      </div>
+    </section>
+
+    <!-- MAP SECTION -->
+    <div id="map"></div>
+
+    <!-- WEATHER POPUP CARD -->
+    <div id="weatherPopup" class="weather-popup">
+      <div class="popup-content">
+        <h3>Weather Info</h3>
+        <div id="weatherData">Click on map...</div>
+      </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
